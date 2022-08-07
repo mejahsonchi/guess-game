@@ -13,7 +13,7 @@ def make_a_guess(levels):
   print(f"You have {levels} attempts remaining to guess the number.")
   
   thinking_numbers = randint(1,101)
-  print(thinking_numbers)
+  
   your_guess = int(input("Make a guess: "))
   if your_guess == thinking_numbers:
     print(f"You got it! The answer was {your_guess}.")
